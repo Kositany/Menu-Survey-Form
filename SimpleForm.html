@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="form" href="form1.aspx"/>
+    <head>
+        <title>Lunch Survey</title>
+    </head>
+    <body>
+        <h1>New Menu Survey</h1>
+        <p>Thank You for taking time to participate :)</p>
+        <h6>This survey helps us create a better menu</h6>
+        <h5>1. Enter your credentials</h5>
+        <form action="" method="post">
+            <div class="credentials">
+                <label for="name">
+                    <input placeholder="Write your name" id="name" name="name" required type="text"/>
+                </label>
+                <label for="email">
+                    <input placeholder="Email...example@123.com" id="email" name="email" required type="text"/>
+                </label>
+                <label for="password">
+                    <input type="password" placeholder="Create a password" id="password" name="password" required/>
+                </label>
+            </div>
+        <h5>2. What is your gender?</h5>
+            <div class="gender">
+                <fieldset ><legend><strong>SELECT YOUR GENDER</strong></legend>
+                <select>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="other">other</option>
+                </select>
+                </fieldset>
+            </div>
+        <h5>3. What is your age?</h5>
+            <div class="age">
+                <label for="age">
+                    <input type="number" name="age" id="age" required max="120" min="1" required>
+                </label>
+            </div>
+        <h5>4. Rate the following menu items as "good" "amazing" "bad" or "terrible"</h5>
+            <div class="rating">
+               <fieldset id="fieldsetRating">
+                <legend><strong>Menu Items</strong></legend>
+                    <h4>Hamburger
+                        <select>
+                            <option value="Awesome">Awesome</option>
+                            <option value="Good">Good</option>
+                            <option value="Bad">Bad</option>
+                            <option value="Terrible">Terrible</option>
+                        </select>
+                    </h4>
+                    <h4>French Fries
+                        <select>
+                            <option value="Awesome">Awesome</option>
+                            <option value="Good">Good</option>
+                            <option value="Bad">Bad</option>
+                            <option value="Terrible">Terrible</option>
+                        </select>
+                    </h4>
+                    <h4>Spicy Wings
+                        <select>
+                            <option value="Awesome">Awesome</option>
+                            <option value="Good">Good</option>
+                            <option value="Bad">Bad</option>
+                            <option value="Terrible">Terrible</option>
+                        </select>
+                    </h4>
+                    <h4>Salad
+                        <select>
+                            <option value="Awesome">Awesome</option>
+                            <option value="Good">Good</option>
+                            <option value="Bad">Bad</option>
+                            <option value="Terrible">Terrible</option>
+                        </select>
+                    </h4>
+                    <h4>Chicken Nuggets
+                        <select>
+                            <option value="Awesome">Awesome</option>
+                            <option value="Good">Good</option>
+                            <option value="Bad">Bad</option>
+                            <option value="Terrible">Terrible</option>
+                        </select>
+                    </h4>
+                    <h4>Fried Fish
+                        <select>
+                            <option value="Awesome">Awesome</option>
+                            <option value="Good">Good</option>
+                            <option value="Bad">Bad</option>
+                            <option value="Terrible">Terrible</option>
+                        </select>
+                    </h4>
+               </fieldset>
+            </div>
+            <footer>
+            </footer>
+            <button type="submit">SUBMIT
+            </button>
+        </form>
+    </body>
+</html>
